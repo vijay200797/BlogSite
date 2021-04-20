@@ -3,12 +3,28 @@
     <head>
         <div style="border: 1px solid #000;">
         <h1>Header Tile</h1>
+        <div>
+            <ul>
+                <li><a href="/post/">view blog</a></li>
+                <li><a href="/post/create">create blog</a></li>
+            </ul>
+            <ul>
+                <li><a href="/user/">view user</a></li>
+                <li><a href="/user/create">create user</a></li>
+                <li><a href="/user/login">login user</a></li>
+                <li><a href="/user/forget">forget user</a></li>
+            </ul>
         </div>
+        </div>
+        
     </head>
 
     <body>
+        <div style="border: 1px solid #000;">
+            
         {% block content %}
         {% endblock content %}
+        </div>
     </body>
     <footer>
         <div style="border: 1px solid #000;">
